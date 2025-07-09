@@ -18,6 +18,11 @@ body {
   display: block;
   margin: 0 auto 20px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  .small-avatar {
+  width: 80px;
+  height: 80px;
+}
+
 }
 
 h1 {
