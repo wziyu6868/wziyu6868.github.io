@@ -81,4 +81,11 @@ ul {
   list-style: none;
   padding: 0;
 }
+.about-image {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+  margin: 20px auto;
+  display: block;
+}
 
