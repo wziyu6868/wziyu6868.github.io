@@ -10,21 +10,6 @@ body {
   line-height: 1.7;
 }
 
-.avatar {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-  border-radius: 100px;
-  display: block;
-  margin: 0 auto 20px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-  .small-avatar {
-  width: 80px;
-  height: 80px;
-}
-
-}
-
 h1 {
   font-size: 28px;
   font-weight: 700;
@@ -38,16 +23,6 @@ h1 {
   text-align: center;
   margin-bottom: 30px;
   color: #666;
-}
-
-h2 {
-  font-size: 20px;
-  margin-top: 30px;
-  margin-bottom: 10px;
-}
-
-p, li {
-  font-size: 16px;
 }
 
 .nav {
@@ -81,11 +56,28 @@ ul {
   list-style: none;
   padding: 0;
 }
-.about-image {
-  width: 100%;
-  max-width: 300px;
-  border-radius: 8px;
-  margin: 20px auto;
-  display: block;
+
+p, li {
+  font-size: 16px;
 }
 
+.avatar {
+  border-radius: 100%;
+  display: block;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.homepage-avatar {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 20px;
+}
+
+.about-image {
+  width: 100%;
+  max-width: 220px;
+  border-radius: 8px;
+  margin: 0 auto 24px;
+  display: block;
+}
