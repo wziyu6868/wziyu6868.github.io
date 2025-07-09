@@ -10,6 +10,16 @@ body {
   line-height: 1.7;
 }
 
+.avatar {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 100px;
+  display: block;
+  margin: 0 auto 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
 h1 {
   font-size: 28px;
   font-weight: 700;
